@@ -1,14 +1,9 @@
+## Title: Project A
 
-        ## Title: Project A
+## Description: 
 
-        ## Description: 
+very good fps
 
-        very good fps
+## Table of Contents: 
 
-        ## Table of Contents: 
-
-        placeholder
-        
-        
-        
-        
+placeholder
