@@ -60,26 +60,26 @@ inquirer
         const questions = data.Questions;
 
         let readmeContent = `
-##Title:${title}
+## Title:${title}
 
-##Description:
+## Description:
 ${description}
-##Table of Contents: 
+## Table of Contents: 
 ${tableofcontents}
-##Installation: 
+## Installation: 
 ${installation}
-##Usage:
+## Usage:
 ${usage}
-##License:
+## License:
 ${license}
-##Contributors:
+## Contributors:
 ${contributors}
-##Tests:
+## Tests:
 ${tests}
-##Questions: 
+## Questions: 
 ${questions}
         `;
-        fs.writeFile("readme.md", readmeContent, err => {
+        fs.writeFile("README.md", readmeContent, err => {
             if (err) {
                 throw err;
             }
